@@ -6,108 +6,25 @@
   <title>Salai Jeyaseelan | Healthcare Innovation Leader</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
-  <style>
-    :root {
-      --bg-light: #f4f4f4;
-      --bg-dark: #121212;
-      --text-light: #333;
-      --text-dark: #eee;
-      --primary: #007acc;
-    }
-
-    body {
-      font-family: 'Inter', sans-serif;
-      margin: 0;
-      background-color: var(--bg-light);
-      color: var(--text-light);
-      transition: background 0.5s, color 0.5s;
-    }
-
-    body.dark-mode {
-      background-color: var(--bg-dark);
-      color: var(--text-dark);
-    }
-
-    header {
-      background: #000;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-
-    header p {
-      font-size: 1.2rem;
-      margin-top: 0.5rem;
-    }
-
-    section {
-      max-width: 960px;
-      margin: auto;
-      padding: 2rem 1rem;
-    }
-
-    .section-title {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-      border-bottom: 2px solid #000;
-      display: inline-block;
-    }
-
-    .project, .blog-post, .pub-entry {
-      background: white;
-      padding: 1rem;
-      margin-bottom: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-
-    body.dark-mode .project, body.dark-mode .blog-post, body.dark-mode .pub-entry {
-      background: #1e1e1e;
-      box-shadow: 0 2px 4px rgba(255,255,255,0.05);
-    }
-
-    footer {
-      text-align: center;
-      padding: 2rem;
-      background: #000;
-      color: white;
-    }
-
-    a {
-      color: var(--primary);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .toggle-button {
-      position: fixed;
-      top: 1rem;
-      right: 1rem;
-      padding: 0.5rem 1rem;
-      background: #007acc;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      z-index: 999;
-    }
-  </style>
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <button class="toggle-button" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+  <button class="toggle-button">Toggle Dark Mode</button>
 
   <header>
     <h1>Salai Jeyaseelan</h1>
     <p>Healthcare Innovator • AI Strategist • Program Leader</p>
   </header>
+
+  <nav style="text-align:center; padding:1rem; background:#000;">
+    <a href="index.html" style="margin:0 1rem; color:white;">Home</a>
+    <a href="projects.html" style="margin:0 1rem; color:white;">Projects</a>
+    <a href="experience.html" style="margin:0 1rem; color:white;">Experience</a>
+    <a href="education.html" style="margin:0 1rem; color:white;">Education</a>
+    <a href="publications.html" style="margin:0 1rem; color:white;">Publications</a>
+    <a href="blog.html" style="margin:0 1rem; color:white;">Blog</a>
+    <a href="resume.html" style="margin:0 1rem; color:white;">Resume</a>
+  </nav>
 
   <section data-aos="fade-up">
     <h2 class="section-title">About Me</h2>
@@ -152,12 +69,6 @@
   </footer>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-
-    function toggleDarkMode() {
-      document.body.classList.toggle("dark-mode");
-    }
-  </script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
