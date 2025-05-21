@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Federated Learning for ADHD Phenotyping</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+  <button class="toggle-button" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+  <nav style="text-align:center; padding:1rem; background:#000;">
+    <a href="index.html" style="margin:0 1rem; color:white;">Home</a>
+    <a href="projects.html" style="margin:0 1rem; color:white;">Projects</a>
+    <a href="experience.html" style="margin:0 1rem; color:white;">Experience</a>
+    <a href="education.html" style="margin:0 1rem; color:white;">Education</a>
+    <a href="publications.html" style="margin:0 1rem; color:white;">Publications</a>
+    <a href="blog.html" style="margin:0 1rem; color:white;">Blog</a>
+    <a href="resume.html" style="margin:0 1rem; color:white;">Resume</a>
+  </nav>
+
+  <article class="blog-post" data-aos="fade-up">
+    <h1>Federated Learning for ADHD Phenotyping</h1>
+    <p><em>Published on May 21, 2025</em></p>
+
+    <img src="https://www.researchgate.net/figure/An-illustration-of-federated-learning_fig1_368985559" alt="Federated Learning Illustration" style="width:100%; max-width:600px; display:block; margin:auto;"/>
+
+    <p>Attention-Deficit/Hyperactivity Disorder (ADHD) is a prevalent neurodevelopmental condition characterized by symptoms of inattention, hyperactivity, and impulsivity. Accurate phenotyping of ADHD is crucial for effective diagnosis and treatment planning. Traditional centralized data collection methods pose challenges related to data privacy and security, especially when dealing with sensitive health information.</p>
+
+    <h2>What is Federated Learning?</h2>
+    <p>Federated Learning (FL) is a decentralized machine learning approach that enables model training across multiple devices or servers holding local data samples, without exchanging them. This method ensures data privacy and security, making it particularly suitable for healthcare applications where patient data confidentiality is paramount.</p>
+
+    <img src="https://decentrapress.com/wp-content/uploads/2021/03/federated-learning.png" alt="Federated Learning Diagram" style="width:100%; max-width:600px; display:block; margin:auto;"/>
+
+    <h2>Application in ADHD Phenotyping</h2>
+    <p>Implementing FL in ADHD phenotyping allows for the integration of diverse datasets from various institutions, enhancing the robustness and generalizability of predictive models. By training models locally and aggregating the learned parameters, researchers can develop comprehensive phenotyping tools without compromising patient privacy.</p>
+
+    <img src="https://www.semanticscholar.org/paper/Two-stage-Federated-Phenotyping-and-Patient-Liu-Dligach/0ca1f7f11732fc89f7289304bca87e7cf3242496/figure/1" alt="Two-stage Federated Phenotyping" style="width:100%; max-width:600px; display:block; margin:auto;"/>
+
+    <h2>Benefits and Challenges</h2>
+    <p><strong>Benefits:</strong></p>
+    <ul>
+      <li><strong>Data Privacy:</strong> Patient data remains on local servers, reducing the risk of data breaches.</li>
+      <li><strong>Collaborative Learning:</strong> Institutions can collaboratively train models, leading to improved accuracy and generalizability.</li>
+      <li><strong>Regulatory Compliance:</strong> FL aligns with data protection regulations like GDPR and HIPAA.</li>
+    </ul>
+
+    <p><strong>Challenges:</strong></p>
+    <ul>
+      <li><strong>System Heterogeneity:</strong> Variations in data quality and formats across institutions can affect model performance.</li>
+      <li><strong>Communication Overhead:</strong> Frequent parameter updates require efficient communication protocols.</li>
+      <li><strong>Security Threats:</strong> Potential risks include model inversion and poisoning attacks.</li>
+    </ul>
+
+    <h2>Future Directions</h2>
+    <p>Advancements in FL algorithms and infrastructure are expected to further enhance its applicability in ADHD phenotyping. Integrating FL with other technologies like differential privacy and secure multi-party computation can bolster data security. Moreover, expanding FL to incorporate multimodal data, such as neuroimaging and genetic information, may provide deeper insights into ADHD subtypes and treatment responses.</p>
+
+    <p>By embracing Federated Learning, the medical community can foster collaborative research while upholding the highest standards of patient privacy and data security.</p>
+  </article>
+
+  <footer>
+    <p>Made with ❤️ & GitHub Pages | © 2025 Salai Jeyaseelan</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+</body>
+</html>
