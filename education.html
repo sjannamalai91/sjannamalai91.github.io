@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Education | Salai Jeyaseelan</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <button class="toggle-button" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+  <nav style="text-align:center; padding:1rem; background:#000;">
+    <a href="index.html" style="margin:0 1rem; color:white;">Home</a>
+    <a href="projects.html" style="margin:0 1rem; color:white;">Projects</a>
+    <a href="experience.html" style="margin:0 1rem; color:white;">Experience</a>
+    <a href="education.html" style="margin:0 1rem; color:white;">Education</a>
+    <a href="publications.html" style="margin:0 1rem; color:white;">Publications</a>
+    <a href="blog.html" style="margin:0 1rem; color:white;">Blog</a>
+    <a href="resume.html" style="margin:0 1rem; color:white;">Resume</a>
+  </nav>
+
+  <section data-aos="fade-up">
+    <h2 class="section-title">Education</h2>
+
+    <div class="project">
+      <h3>🎓 Master of Science in Biomedical Engineering</h3>
+      <p><strong>Indian Institute of Technology (IIT) Madras</strong><br>Research focused on neuromechanics, prehension, and motor control using a novel experimental tool ("Inverse Saxophone").</p>
+    </div>
+
+    <div class="project">
+      <h3>🎓 Master of Business Administration in Data Analytics</h3>
+      <p><strong>Manipal University Jaipur</strong><br>Specialization in business intelligence, advanced analytics, and leadership in healthcare innovation systems.</p>
+    </div>
+
+    <div class="project">
+      <h3>🎓 Bachelor of Engineering in Biomedical Instrumentation</h3>
+      <p><strong>Anna University</strong><br>Solid foundation in medical devices, signal processing, and clinical instrumentation.</p>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>Made with ❤️ & GitHub Pages | © 2025 Salai Jeyaseelan</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+</body>
+</html>
