@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Salai Jeyaseelan</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <button class="toggle-button" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+  <nav style="text-align:center; padding:1rem; background:#000;">
+    <a href="index.html" style="margin:0 1rem; color:white;">Home</a>
+    <a href="projects.html" style="margin:0 1rem; color:white;">Projects</a>
+    <a href="experience.html" style="margin:0 1rem; color:white;">Experience</a>
+    <a href="education.html" style="margin:0 1rem; color:white;">Education</a>
+    <a href="publications.html" style="margin:0 1rem; color:white;">Publications</a>
+    <a href="blog.html" style="margin:0 1rem; color:white;">Blog</a>
+    <a href="resume.html" style="margin:0 1rem; color:white;">Resume</a>
+  </nav>
+
+  <section data-aos="fade-up">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="project">
+      <h3>🧠 Federated Learning for ADHD Phenotyping</h3>
+      <p>Built a distributed machine learning pipeline on open-source fMRI datasets using federated learning to preserve privacy while phenotyping ADHD in children and adults.</p>
+    </div>
+
+    <div class="project">
+      <h3>📊 ICU Monitor Data Extraction Tool</h3>
+      <p>Developed a YOLOv8-based computer vision system to detect and extract vitals from ICU monitor images for downstream analytics and predictive modeling.</p>
+    </div>
+
+    <div class="project">
+      <h3>🚀 MSMF-TBI LAUNCH Accelerator</h3>
+      <p>Designed and managed India’s first hospital-based BioNEST accelerator, supporting over 50 startups with funding, validation, and mentorship support.</p>
+    </div>
+
+    <div class="project">
+      <h3>📱 Resus Care AI</h3>
+      <p>Led the creation of a mobile application that captures ICU monitor vitals through image analysis and uses AI models to predict patient deterioration trends.</p>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>Made with ❤️ & GitHub Pages | © 2025 Salai Jeyaseelan</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+</body>
+</html>
